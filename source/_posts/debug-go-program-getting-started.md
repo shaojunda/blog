@@ -61,7 +61,7 @@ Section header string table index: 3
 可以看到 `Entry point address: 0x455780` 这个就是 `hello.go` 程序的执行入口。接下来使用 `dlv` 对 `hello.go` 程序进行调试。
 
 执行 `dlv exec ./hello` 会进入到调试模式
-
+<!--more-->
 ```
 [root@4158ddf6b44d home]# dlv exec ./hello
 Type 'help' for list of commands.
